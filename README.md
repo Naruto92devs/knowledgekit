@@ -16,6 +16,20 @@ npm install
 
 ```
 
+Now, clone the repository using HTTPS, SSH, or GitHub CLI according to your system setup:
+
+```bash
+# Clone the repository
+git clone https://github.com/example/example.git
+
+# Change into the project directory
+cd example
+
+# Install dependencies
+npm install
+
+```
+
 Now, run the development server:
 
 ```bash
@@ -39,6 +53,7 @@ ipconfig
 ifconfig
 
 ```
+
 
 Look for the en0 or en1 interface for wired or wireless connections, respectively, and find the inet entry, which is your IP address. After finding your IP address, you can access the project on your local network by navigating to (`http://<your-ip>:3000`) in your browser (e.g., http://192.168.0.1:3000).
 
