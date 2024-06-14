@@ -40,7 +40,7 @@ ifconfig
 
 ```
 
-Look for the en0 or en1 interface for wired or wireless connections, respectively, and find the inet entry, which is your IP address. After finding your IP address, you can access the project on your local network by navigating to (http://<your-ip>:3000) in your browser (e.g., http://192.168.0.1:3000).
+Look for the en0 or en1 interface for wired or wireless connections, respectively, and find the inet entry, which is your IP address. After finding your IP address, you can access the project on your local network by navigating to (`http://<your-ip>:3000`) in your browser (e.g., http://192.168.0.1:3000).
 
 ## Contributing
 
