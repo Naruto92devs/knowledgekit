@@ -42,20 +42,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. If you want 
-to run the project on your local network, first check your IP address using the terminal or command prompt:
-
-```bash
-# For Windows
-ipconfig
-
-# For macOS and Linux
-ifconfig
-
-```
-
-
-Look for the en0 or en1 interface for wired or wireless connections, respectively, and find the inet entry, which is your IP address. After finding your IP address, you can access the project on your local network by navigating to (`http://<your-ip>:3000`) in your browser (e.g., http://192.168.0.1:3000).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You will also get
+the url in terminal to visit the app on your local network (e.g., `http://<your-ip>:3000`).
 
 ## Contributing
 
