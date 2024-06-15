@@ -6,4 +6,4 @@ const port = 3000;
 
 console.log(`Starting Next.js dev server on http://${localIp}:${port}`);
 
-execSync(`next dev --hostname 0.0.0.0 --port ${port}`, { stdio: 'inherit' });
+execSync(`next dev `, { stdio: 'inherit' });
