@@ -2,7 +2,7 @@
 const Home = () => {
   return (
     <h1>
-      Home Page
+      index Page
     </h1>
   );
 }
