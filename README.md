@@ -16,20 +16,6 @@ npm install
 
 ```
 
-Now, clone the repository using HTTPS, SSH, or GitHub CLI according to your system setup:
-
-```bash
-# Clone the repository
-git clone https://github.com/example/example.git
-
-# Change into the project directory
-cd example
-
-# Install dependencies
-npm install
-
-```
-
 Now, run the development server:
 
 ```bash
