@@ -1,4 +1,3 @@
-
 const Footer =() => {
  return (
    <footer className="h-auto bg-slate-600">
