@@ -16,20 +16,6 @@ npm install
 
 ```
 
-Now, clone the repository using HTTPS, SSH, or GitHub CLI according to your system setup:
-
-```bash
-# Clone the repository
-git clone https://github.com/example/example.git
-
-# Change into the project directory
-cd example
-
-# Install dependencies
-npm install
-
-```
-
 Now, run the development server:
 
 ```bash
@@ -91,7 +77,7 @@ You can start editing the page by modifying `app/page.js` or start adding pages 
 ## Project Design
 
 you will need a design file to follow the instructions to create components and pages, here is the figma design file link:
-[https://www.figma.com/design/Hg1SxbALE8SUQt1Jd7Jqoq/Knowledgekit?node-id=0-1&t=LEkkaJGU1PsyDdtU-1](https://www.figma.com/design/Hg1SxbALE8SUQt1Jd7Jqoq/Knowledgekit?node-id=0-1&t=LEkkaJGU1PsyDdtU-1)
+[https://www.figma.com/design/7ofwv6Jp23rLwN62nNAzUU/MyCourses.io---Course-Website-%7C-Course-Online-%7C-Course-details-%7C-Course-landing-page-%7C-Untitled-UI-(Community)-(Copy)?node-id=518-2505&t=V8RtdEoZ6gIfVoqp-1]([https://www.figma.com/design/Hg1SxbALE8SUQt1Jd7Jqoq/Knowledgekit?node-id=0-1&t=LEkkaJGU1PsyDdtU-1](https://www.figma.com/design/7ofwv6Jp23rLwN62nNAzUU/MyCourses.io---Course-Website-%7C-Course-Online-%7C-Course-details-%7C-Course-landing-page-%7C-Untitled-UI-(Community)-(Copy)?node-id=518-2505&t=V8RtdEoZ6gIfVoqp-1))
 
 ## Font Optimization
 
