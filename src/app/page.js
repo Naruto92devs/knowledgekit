@@ -1,6 +1,7 @@
-import CourseCard from "@/components/CourseCard";
+import CourseCard from "@/components/CourseCard"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
+
 
 const Home = () => {
   const courses = [
