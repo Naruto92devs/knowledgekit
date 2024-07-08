@@ -1,0 +1,77 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150vh;
+    height: 400px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slide-1 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-2 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-3 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-4 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-5 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-6 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-7 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-8 {
+    background-image: url('OIP.jpeg');
+  }
+  
+  .slide-9 {
+    background-image: url('OIP.jpeg');
+  }

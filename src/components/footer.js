@@ -39,7 +39,7 @@ const Footer =() => {
             <FaFacebook size={24} />
           </a>
         </div>
-      </div>
+      </div> 
       <div className="text-center mt-8 text-sm text-gray-500">
         Copyright © MyCourse.io 2024. All Rights Reserved
       </div>
