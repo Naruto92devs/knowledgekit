@@ -1,0 +1,14 @@
+#banner_slider .swiper-pagination-bullet {
+    transition: width .2s;
+    transform-origin: center;
+    background: #818183;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+}
+  
+#banner_slider .swiper-pagination-bullet-active {
+    transform: scale(1.1);
+    border-radius: 6px;
+    background:  #FD853A;
+}
