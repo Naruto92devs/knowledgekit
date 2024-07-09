@@ -1,6 +1,7 @@
 import CourseCard from "@/components/CourseCard"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
+import BannerSlider from "@/components/Banner_slider";
 import D_slider from "@/components/d_slider";
 
 
@@ -45,9 +46,10 @@ const Home = () => {
   ];
 
   return (
-    <div className="home">
+    <div className="home flex flex-col justify-between w-full min-h-[100dvh]">
       <Navbar />
-      <div className="container mx-auto p-4">
+      <BannerSlider/>
+      <div className="container mx-auto p-12">
         <h1 className="text-2xl font-bold mb-4">More from Kitani Studio</h1>
         <p className="mb-6">We know the best things for You. Top picks for You.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
