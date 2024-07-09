@@ -1,6 +1,7 @@
 import CourseCard from "@/components/CourseCard"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
+import D_slider from "@/components/d_slider";
 
 
 const Home = () => {
@@ -63,6 +64,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <D_slider />
       <Footer />
     </div>
   );
