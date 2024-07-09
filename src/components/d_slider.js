@@ -14,6 +14,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
 const d_slider = () => {
   return (
+
     <Swiper
       slidesPerView={3}
       spaceBetween={30}
@@ -23,6 +24,7 @@ const d_slider = () => {
       }}
       modules={[FreeMode, Pagination]}
       className="mySwiper"
+      id='d_slider'
     >
       <SwiperSlide className="slide-1"></SwiperSlide>
       <SwiperSlide className="slide-2"></SwiperSlide>

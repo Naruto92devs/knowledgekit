@@ -8,12 +8,13 @@ import "swiper/css";
 import 'swiper/swiper-bundle.css';
 import "./Banner_slider.css"
 
-const BannerSlider = () => {
+const BannerSlider = ({Banners}) => {
 
     return (
-        <div className="container mx-auto w-full h-full p-12">
+        <div className=" w-full h-full">
             <Swiper 
             className="mySwiper"
+            id="banner_slider"
             // spaceBetween={80}
             rewind={true}
             autoplay={{
@@ -25,38 +26,22 @@ const BannerSlider = () => {
             }}
             modules={[Pagination, Autoplay]}
             >
-                <SwiperSlide 
+
+                {Banners.map((Banner, index) => (
+                <SwiperSlide key={index} course={Banner} 
                 className="
-                w-full !h-[400px] mb-[40px] 
-                !flex !flex-col !items-center !justify-center
+                w-full !h-[400px] mb-[60px] 
+                !flex !flex-col !items-start !justify-center gap-2 p-8 pr-[50%]
                 "
-                >
-                    <h1 className="text-8xl">hello world! 1</h1>
+                style={{background: `url('/images/banner_bg.jpg')`}}>
+                    <h1 className="text-4xl text-left font-bold text-white">{Banner.title}</h1>
+                    <p className="text-sm font-normal text-white">{Banner.description}</p>
+                    <a 
+                    className=" p-2 text-sm text-black border-dashed border-2 border-sky-500 border-black rounded-md " 
+                    title={Banner.href} href={Banner.href}>{Banner.btn}
+                    </a>
                 </SwiperSlide>
-                <SwiperSlide 
-                className="
-                w-full !h-[400px] mb-[40px] 
-                !flex !flex-col !items-center !justify-center
-                "
-                >
-                    <h1 className="text-8xl">hello world! 2</h1>
-                </SwiperSlide>
-                <SwiperSlide 
-                className="
-                w-full !h-[400px] mb-[40px] 
-                !flex !flex-col !items-center !justify-center
-                "
-                >
-                    <h1 className="text-8xl">hello world! 3</h1>
-                </SwiperSlide>
-                <SwiperSlide 
-                className="
-                w-full !h-[400px] mb-[40px] 
-                !flex !flex-col !items-center !justify-center
-                "
-                >
-                    <h1 className="text-8xl">hello world! 4</h1>
-                </SwiperSlide>
+                ))}
                 
             </Swiper>
         </div>
