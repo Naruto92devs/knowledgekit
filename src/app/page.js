@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import BannerSlider from "@/components/Banner_slider";
 import D_slider from "@/components/d_slider";
+import Buttons from "@/components/Buttons";
+import Subscription from "@/components/Subscription";
 
 
 const Home = () => {
@@ -65,7 +67,6 @@ const Home = () => {
       img: "../images/banner_bg.jpg",
     },
   ];
-
   const courses = [
     {
       title: "VUE JAVASCRIPT COURSE",
@@ -111,6 +112,10 @@ const Home = () => {
       <div className="container mx-auto p-12">
           <BannerSlider Banners={Banners} />
       </div>
+      <div className="p-12">
+      <Buttons />
+      </div>
+
       <div className="container mx-auto p-12">
         <h1 className="text-2xl font-bold mb-4">More from Kitani Studio</h1>
         <p className="mb-6">We know the best things for You. Top picks for You.</p>
@@ -130,6 +135,9 @@ const Home = () => {
       </div>
       <div className="container mx-auto p-12">
         <D_slider />
+      </div>
+      <div className="p-12">
+      <Subscription />
       </div>
       <Footer />
     </div>
