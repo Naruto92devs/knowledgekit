@@ -11,21 +11,21 @@ const Footer =() => {
           <span className="text-xl font-semibold">MyCourse.io</span>
         </div>
         <div className="flex flex-wrap justify-center md:justify-between w-full md:w-auto">
-          <div className="flex flex-col items-center md:items-start mx-4">
-            <span className="font-semibold mb-2">Web Programming</span>
-            <span className="font-semibold mb-2">Mobile Programming</span>
-            <span className="font-semibold mb-2">Java Beginner</span>
-            <span className="font-semibold mb-2">PHP Beginner</span>
+          <div className="flex flex-col items-center md:items-start mx-4 px-6">
+            <button className="font-normal mb-2">Web Programming</button>
+            <button className="font-normal mb-2">Mobile Programming</button>
+            <button className="font-normal mb-2">Java Beginner</button>
+            <button className="font-normal mb-2">PHP Beginner</button>
           </div>
-          <div className="flex flex-col items-center md:items-start mx-4">
-            <span className="font-semibold mb-2">Adobe Illustrator</span>
-            <span className="font-semibold mb-2">Adobe Photoshop</span>
-            <span className="font-semibold mb-2">Design Logo</span>
+          <div className="flex flex-col items-center md:items-start mx-4 px-6">
+            <button className="font-normal mb-2">Adobe Illustrator</button>
+            <button className="font-normal mb-2">Adobe Photoshop</button>
+            <button className="font-normal mb-2">Design Logo</button>
           </div>
-          <div className="flex flex-col items-center md:items-start mx-4">
-            <span className="font-semibold mb-2">Writing Course</span>
-            <span className="font-semibold mb-2">Photography</span>
-            <span className="font-semibold mb-2">Video Making</span>
+          <div className="flex flex-col items-center md:items-start mx-4 px-6">
+            <button className="font-normal mb-2">Writing Course</button>
+            <button className="font-normal mb-2">Photography</button>
+            <button className="font-normal mb-2">Video Making</button>
           </div>
         </div>
         <div className="flex mt-4 md:mt-0">
