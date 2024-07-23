@@ -4,6 +4,7 @@ const Subscription = () => {
   return (
     <div className='flex items-center justify-center'>
     <div className="bg-blue-600 text-white rounded-lg p-8 flex items-center justify-between space-x-11">
+
       <div>
         <h2 className="text-2xl font-bold">Join and get amazing discount</h2>
         <p className="text-gray-200">With our responsive themes and mobile and desktop apps</p>
@@ -18,6 +19,7 @@ const Subscription = () => {
       </div>
     </div>
     </div>
+
   );
 };
 
