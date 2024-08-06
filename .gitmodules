@@ -1,0 +1,3 @@
+[submodule "knowledgekit"]
+    path = knowledgekit
+    url = https://github.com/naruto92devs/knowledgekit.git
